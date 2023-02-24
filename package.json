@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "vite": "^4.1.1"
+  },
+  "name": "cwh",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "start": "vite",
+    "watch": "npx tailwindcss --watch input.css -o ./css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
